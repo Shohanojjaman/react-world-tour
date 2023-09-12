@@ -3,3 +3,29 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+.country-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.country {
+  border: 2px solid #0000ffab;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.country img {
+  height: 150px;
+}
+
+.visited {
+  background-color: limegreen;
+}
+
+.hidden {
+  display: none;
+}
